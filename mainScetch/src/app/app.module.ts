@@ -9,7 +9,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { DemoMaterialModule } from './demo-material.module';
 import { AppRoutingModule } from './app-routing.module';
-import { DemoRoutingModule } from './demo/demo-routing.module';
 import { TestRoutingModule } from './test/test-routing.module';
 import { DemoModule } from './demo/demo.module';
 import { TestModule } from './test/test.module';
@@ -27,10 +26,7 @@ import { TestComponent } from './test/test.component';
     HttpClientModule,
     MatNativeDateModule,
     ReactiveFormsModule,
-
     DemoMaterialModule,
-
-    DemoRoutingModule,
     TestRoutingModule,
     AppRoutingModule,
 
